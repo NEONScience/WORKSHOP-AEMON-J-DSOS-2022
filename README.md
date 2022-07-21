@@ -8,6 +8,9 @@ This repository contains the code that will be used for the AEMON-J/DSOS
 workshop: An introduction to workflow management software in ecology
 (<https://aquaticdatasciopensci.github.io/day2-bigdata/>).
 
+The file `complete_workflow_example.zip` contains the final workflow
+product for this workshop.
+
 <!-- ****** Prep ****** -->
 
 ## Preparation for the workshop
@@ -16,12 +19,12 @@ workshop: An introduction to workflow management software in ecology
     instructions in the following tutorial, which shouldn’t take more
     than 10 minutes
     (<https://www.neonscience.org/resources/learning-hub/tutorials/neon-api-tokens-tutorial>)
-2.  Ensure that you have R version \>3.4 installed on your computer.
+2.  Ensure that you have a recent R version installed on your computer.
+    (Tutorial leaders will have version \>= 4.2.0)
 3.  The tutorial leaders will use RStudio, which is also recommended,
     but optional.
-4.  Install required packages: neonUtilities, ggplot2, lubridate, plyr.
-    Feel free to use lines 95-98 of the NEON-AEMON-J-DSOS-2022.Rmd
-    script in this repository.
+4.  Install required packages: `targets`, `neonUtilities`, `tidyverse`,
+    and `lubridate.`
 
 <!-- ****** Intro Links ****** -->
 
